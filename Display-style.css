@@ -1,0 +1,256 @@
+﻿body {
+    background: url(https://img.freepik.com/free-vector/pattern-geometric-line-circle-abstract-seamless-blue-line_60284-53.jpg?size=626&ext=jpg);
+    background-size: 500px;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+
+}
+
+.Teacher-main-container {
+    display: block;
+    font-size: 14pt;
+    line-height: 27pt;
+    font-family: 'Microsoft Sans Serif';
+    margin-top: 15pt;
+    margin-bottom: 80pt;
+    border: none;
+    border-bottom: 5px solid rgba(0,0,0,1);
+    background: #f8f4e5;
+    min-width: 250px;
+    padding-left: 5px;
+    outline: none;
+    color: rgba(0,0,0,1);
+    background: #f8f4e5;
+    padding: 30px 30px;
+    border: 2px solid rgba(0,0,0,1);
+    box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px rgba(0,0,0,1);
+}
+
+.Subject-main-container {
+    display: block;
+    font-size: 14pt;
+    line-height: 27pt;
+    font-family: 'Microsoft Sans Serif';
+    margin-top: 15pt;
+    margin-bottom: 90pt;
+    border: none;
+    border-bottom: 5px solid rgba(0,0,0,1);
+    background: #f8f4e5;
+    min-width: 250px;
+    padding-left: 5px;
+    outline: none;
+    color: rgba(0,0,0,1);
+    background: #f8f4e5;
+    padding: 30px 30px;
+    border: 2px solid rgba(0,0,0,1);
+    box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px rgba(0,0,0,1);
+}
+
+.Student-main-container {
+    display: block;
+    font-size: 14pt;
+    line-height: 25pt;
+    font-family: 'Microsoft Sans Serif';
+    margin-top: 15pt;
+    margin-bottom: 90pt;
+    border: none;
+    border-bottom: 5px solid rgba(0,0,0,1);
+    background: #f8f4e5;
+    min-width: 230px;
+    padding-left: 5px;
+    outline: none;
+    color: rgba(0,0,0,1);
+    padding: 30px 30px;
+    border: 2px solid rgba(0,0,0,1);
+    box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px rgba(0,0,0,1);
+}
+
+.info {
+   
+    position: fixed;
+    font-family: 'Fjalla One';
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    right: 0;
+    background: rgba(255, 165, 128, .9);
+    border-top: 10px solid rgba(30, 30, 30, .8);
+}
+
+.info-subject{
+    position: fixed;
+    font-family: 'Fjalla One';
+    bottom: 0;
+    width: 100%;
+    height: 13%;
+    right: 0;
+    background: rgba(255, 165, 128, .9);
+    border-top: 10px solid rgba(30, 30, 30, .8);
+}
+.combine-input {
+    
+    font-size: 11pt;
+    margin-left: 25pt;
+    font-family: 'Microsoft Sans Serif';
+}
+.combine-input-teacher {
+    font-size: 11pt;
+    margin-left: 5pt;
+    font-family: 'Microsoft Sans Serif';
+}
+.input-container {
+    margin-top: 10pt;
+    width: 100%;
+    font-size: 10pt;
+    line-height: 12pt;
+    font-family: 'Microsoft Sans Serif';
+    border: none;
+    border-bottom: 5px solid rgba(0,0,0,1);
+    background: #ebe9e1;
+    min-width: 250px;
+    padding-left: 5px;
+    outline: none;
+    color: rgba(0,0,0,1);
+}
+
+.input-container:focus {
+    border-bottom: 5px solid #fb6b30;
+}
+
+.input-container-teacher{
+    margin-top: 10pt;
+    margin-left: 20pt;
+    width: 100%;
+    font-size: 10pt;
+    line-height: 12pt;
+    font-family: 'Microsoft Sans Serif';
+    border: none;
+    border-bottom: 5px solid rgba(0,0,0,1);
+    background: #ebe9e1;
+    min-width: 250px;
+    padding-left: 5px;
+    outline: none;
+    color: rgba(0,0,0,1);
+}
+    .input-container-teacher:focus {
+        border-bottom: 5px solid #fb6b30;
+    }
+.input-container-day{
+    margin-top: 10pt;
+    margin-left: 35pt;
+    width: 100%;
+    font-size: 10pt;
+    line-height: 12pt;
+    font-family: 'Microsoft Sans Serif';
+    border: none;
+    border-bottom: 5px solid rgba(0,0,0,1);
+    background: #ebe9e1;
+    min-width: 250px;
+    padding-left: 5px;
+    outline: none;
+    color: rgba(0,0,0,1);
+}
+    .input-container-day:focus {
+        border-bottom: 5px solid #fb6b30;
+    }
+.input-container-time {
+    margin-top: 10pt;
+    margin-left: 1pt;
+    width: 100%;
+    font-size: 10pt;
+    line-height: 12pt;
+    font-family: 'Microsoft Sans Serif';
+    border: none;
+    border-bottom: 5px solid rgba(0,0,0,1);
+    background: #ebe9e1;
+    min-width: 250px;
+    padding-left: 5px;
+    outline: none;
+    color: rgba(0,0,0,1);
+}
+
+    .input-container-time:focus {
+        border-bottom: 5px solid #fb6b30;
+    }
+.btn-style {
+    margin-left: 5pt; 
+    line-height: 50px;
+    padding: 0 10px;
+    background: #fb966d;
+    letter-spacing: 2px;
+    transition: .2s all ease-in-out;
+    outline: none;
+    border: 1px solid rgba(0,0,0,1);
+    box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px rgba(0,0,0,1);
+}
+
+    .btn-style:hover {
+        background: rgba(0,0,0,1);
+        color: white;
+        border: 1px solid rgba(0,0,0,1);
+        cursor: pointer;
+    }
+.btn-style-subject {
+    position: relative;
+    margin-left: 5pt;
+    top: -60px;
+    line-height: 50px;
+    padding: 0 10px;
+    background: #fb966d;
+    letter-spacing: 2px;
+    transition: .2s all ease-in-out;
+    outline: none;
+    border: 1px solid rgba(0,0,0,1);
+    box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px rgba(0,0,0,1);
+}
+
+    .btn-style-subject:hover {
+        background: rgba(0,0,0,1);
+        color: white;
+        border: 1px solid rgba(0,0,0,1);
+        cursor: pointer;
+    }
+.btn-style-cancel {
+    margin-left: 5pt;
+    margin-top: 3pt;
+    line-height: 50px;
+    padding: 0 10px;
+    background: #db2e1a;
+    letter-spacing: 2px;
+    transition: .2s all ease-in-out;
+    outline: none;
+    border: 1px solid rgba(0,0,0,1);
+    box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px rgba(0,0,0,1);
+}
+    .btn-style-cancel:hover {
+        background: rgba(0,0,0,1);
+        color: white;
+        border: 1px solid rgba(0,0,0,1);
+        cursor: pointer;
+    }
+
+.buttons-subject-cancel {
+    position: relative;
+    margin-left: 5pt;
+    top: -60px;
+    line-height: 50px;
+    padding: 0 10px;
+    background: #db2e1a;
+    letter-spacing: 2px;
+    transition: .2s all ease-in-out;
+    outline: none;
+    border: 1px solid rgba(0,0,0,1);
+    box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px rgba(0,0,0,1);
+}
+.buttons-subject-cancel:hover {
+    background: rgba(0,0,0,1);
+    color: white;
+    border: 1px solid rgba(0,0,0,1);
+    cursor: pointer;
+}
+.buttons-3 {
+    margin-left: 64.5em;
+}

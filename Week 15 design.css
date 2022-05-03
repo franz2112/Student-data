@@ -1,0 +1,100 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    background-repeat: repeat;
+    background: url(furniture.jpg);
+    background-size: 500px;
+    font-family: sans-serif;
+}
+
+.display-design {
+    width: 325px;
+    height: auto;
+    position: relative;
+    background: url(bangko.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    padding: 30px 0;
+    border-right: 5px solid rgba(30, 30, 30, .8);
+    border-left: 5px solid rgba(30, 30, 30, .8);
+}
+
+
+.main-furniture {
+    font-size: 15px;
+    background-color: #fff;
+    position: absolute;
+    top: 330px;
+    left: 37em;
+    transform: translate(-520px, -260px);
+    width: 87em;
+    height: 35em;
+    display: flex;
+    color: white;
+    box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+
+}
+
+.grid-design {
+    overflow: auto;
+
+}
+
+.table-furniture {
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.input-furniture {
+    width: 95%;
+    font-size: 12pt;
+    line-height: 15pt;
+    font-family: sans-serif;
+    border: none;
+    border-bottom: 5px solid #e6e1bc;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #ebe9e1;
+    outline: none;
+    color: rgba(0,0,0,1);
+}
+
+.container {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.buttons-furniture {
+    margin-left: 12px;
+    line-height: 30px;
+    padding: 0 33px;
+    background: #e6e1bc;
+    letter-spacing: 2px;
+    transition: .2s all ease-in-out;
+    outline: none;
+    border: 1px solid rgba(0,0,0,1);
+    margin-top: 10px;
+    color: black;
+}
+
+    .buttons-furniture:hover {
+        background: #fff;
+        color: black;
+        border: 1px solid rgba(0,0,0,1);
+        cursor: pointer;
+    }
+
+    .buttons-furniture[disabled] {
+        background: #a5a5a5;
+        color: black;
+        border: 1px solid rgba(0,0,0,1);
+        cursor: not-allowed;
+    }
+
+.profile_img {
+    position: relative;
+    top: 6px;
+    left: 60px;
+    width: 200px;
+}
